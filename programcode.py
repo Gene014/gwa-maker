@@ -12,5 +12,7 @@ def process():
         for line in input_file:
             input_gwa = str(line)
             gwa=(input_gwa)
-            print(gwa)
+            print(gwa.split())
+            edited=(gwa.split())
+            print(edited.strip())
 process ()
